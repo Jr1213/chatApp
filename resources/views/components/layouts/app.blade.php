@@ -9,6 +9,8 @@
 </head>
 <body class="dark-theme">
     <div class="container">
+        {{ $slot }}
+
     </div>
     @livewireScripts
 </body>
