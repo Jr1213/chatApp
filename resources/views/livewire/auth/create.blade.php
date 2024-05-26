@@ -2,7 +2,7 @@
     <div class="form-info">
         <h2>Welcome to Our App</h2>
         <p>Create an account to get started. If you already have an account, you can log in here.</p>
-        <a href="" class="cta-button">Log In</a>
+        <a href="{{ route('login') }}" class="cta-button">Log In</a>
     </div>
     <div class="form-container">
         <form wire:submit.prevent='submit' method="POST">
