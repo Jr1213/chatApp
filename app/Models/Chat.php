@@ -28,6 +28,6 @@ class Chat extends Model
 
     public function lastMessage():string
     {
-       return $this->messages()->orderByDesc('created_at')->first()?->messages ?? 'no messages yet';
+       return $this->messages()->orderByDesc('created_at')->first()?->message ?? 'no messages yet';
     }
 }
